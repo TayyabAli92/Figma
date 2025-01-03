@@ -8,7 +8,7 @@ export default function Page_04() {
           <h1 className="text-white font-bold text-[44px] relative inline-block">
             Use as Extenion
           </h1>
-          <img
+          <Image
             src="/images/Vector.png"
             alt="Vector"
             width="350"
@@ -21,7 +21,7 @@ export default function Page_04() {
             save web pages or take screenshots as notes.
           </p>
           <button className="text-white w-[237px] h-[66px] p-4 bg-blue-500 rounded-lg">
-            let's Go →
+            let&apos;s Go →
           </button>
         </div>
         <div className="bg-[#C4DEFD] w-[500px] h-[350px] my-auto"></div>

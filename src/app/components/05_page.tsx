@@ -13,7 +13,7 @@ export default function Page_05(){
           <h1 className="font-bold text-[72px] relative inline-block">
             Customize it to 
             your needs</h1>
-            <img
+            <Image
               src="/images/Vector.png"
               alt="Vector"
               width="450.44"
@@ -31,7 +31,7 @@ export default function Page_05(){
 
           <div className="mt-10">
             <button className="text-white w-[225px] h-[66px] rounded-md bg-blue-400 p-4">
-              Let's Go→
+              Let&apos;s Go→
             </button>
           </div>
           <div />

@@ -6,7 +6,7 @@ export default function Page_07() {
       <div className="bg-blue-900 w-auto h-[400px] flex items-center">
         <div className="flex flex-row justify-center items-center align-center">
           <div className="-mr-[50px] -pr-[100px]">
-            <img
+            <Image
               src="/images/background-image.png"
               alt="background image"
               width={300}

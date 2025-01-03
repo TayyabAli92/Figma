@@ -6,7 +6,7 @@ export default function Page_02() {
       <div className="flex w-11/12 h-[465px]">
         <div className="flex flex-col flex-1 gap-4 justify-center px-4">
           <h1 className="font-bold text-[72px] relative inline-block">Project Management</h1>
-          <img
+          <Image
             src="/images/Vector.png"
             alt="Vector"
             width="500"

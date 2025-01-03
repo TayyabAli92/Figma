@@ -7,7 +7,7 @@ export default function Page_09(){
           Our sponsors
         </h1>
         <div className="flex justify-center">
-          <img
+          <Image
             src="/images/Vector.png"
             alt="Vector"
             width="300.15"
@@ -17,7 +17,7 @@ export default function Page_09(){
         </div>
 
         <div className="flex justify-center">
-          <img
+          <Image
             src="/images/sponsors.png"
             alt="sponsors"
             width="1000.15"
