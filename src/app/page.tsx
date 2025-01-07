@@ -1,77 +1,84 @@
-// import Image from "next/image";
-import Header from "./components/Navbar";
-import Footer from "./components/Footer";
-import Page_01 from "./components/01_page";
-import Page_02 from "./components/02_page";
-import Page_03 from "./components/03_page";
-import Page_04 from "./components/04_page";
-import Page_05 from "./components/05_page";
-import Page_06 from "./components/06_page";
-import Page_07 from "./components/07_page";
-import Page_08 from "./components/08_page";
-import Page_09 from "./components/09_page";
-import Page_10 from "./components/10_page";
-import Page_11 from "./components/11_page";
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Page1 from "./components/Page-1"
+import Page2 from "./components/Page-2"
+import Page3 from "./components/Page-3"
+import Page4 from "./components/Page-4"
+import Page5 from "./components/Page-5"
+import Page6 from "./components/Page-6"
+import Page7 from "./components/Page-7"
+import Page8 from "./components/Page-8"
+import Page9 from "./components/Page-9"
+import Page10 from "./components/Page-10"
+import Page11 from "./components/Page-11"
 
-export default function Home(){  // start
+export default function Home(){
   return(
     <div>
-      <Header />
+        {/* Header start */}
+        <Header/> 
+        {/* Header end */}
 
 
-      {/* one start */}
-      <Page_01 />
-      {/* one end */}
-      
-
-      {/* two start */}
-      <Page_02 />
-      {/* two end */}
+        {/* Page 1 start */}
+        <Page1/>
+        {/* Page 1 end */}
 
 
-      {/* three start */}
-      <Page_03 />
-      {/* three end */}
+        {/* Page 2 start */}
+        <Page2/>
+        {/* Page 2 end */}
+    
 
-      {/* four start */}
-      <Page_04 />
-      {/* four task end */}
+        {/* Page 3 start */}
+        <Page3/>
+        {/* Page 3 end */}
+    
 
+        {/* Page 4 start */}
+        <Page4/>
+        {/* Page 4 end */}
+    
 
-      {/* five start */}
-      <Page_05 />
-      {/* five end */}
+        {/* Page 5 start */}
+        <Page5/>
+        {/* Page 5 end */}
 
-
-      {/* six start */}
-      <Page_06 />
-      {/* six end */}
-
-
-      {/* seven start */}
-      <Page_07 />
-      {/* seven end */}
-
-
-      {/* eight start */}
-      <Page_08 />
-      {/* eight end */}
+        {/* Page 6 start */}
+        <Page6/>
+        {/* Page 6 end */}
 
 
-      {/* nine start */}
-      <Page_09 />
-      {/* nine end */}
-
-      {/* ten start */}
-      <Page_10 />
-      {/* ten end */}
+        {/* Page 7 start */}
+        <Page7/>
+        {/* Page 7 end */}
 
 
-      {/* eleven start */}
-      <Page_11 />
-      {/* eleven end */}
+        {/* Page 8 start */}
+        <Page8/>
+        {/* Page 8 end */}
 
-      <Footer />
+
+        {/* Page 9 start */}
+        <Page9/>
+        {/* Page 9 end */}
+
+
+        {/* Page 10 start */}
+        <Page10/>
+        {/* Page 10 end */}
+
+
+        {/* Page 11 start */}
+        <Page11/>
+        {/* Page 11 end */}
+    
+
+        {/* Footer start */}
+        <Footer/>
+        {/* Footer end */}
+    
+    
     </div>
   )
 }
